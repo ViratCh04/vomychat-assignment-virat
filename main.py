@@ -1,4 +1,3 @@
-import re
 import os
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -11,7 +10,6 @@ from selenium.common.exceptions import (
     WebDriverException,
 )
 from concurrent.futures import ThreadPoolExecutor
-from contextlib import contextmanager
 import time
 import csv
 import logging
